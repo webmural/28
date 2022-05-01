@@ -1,6 +1,6 @@
 html {
   font-family: monospace;
-  font-size: max(1em, 21vmax);
+  font-size: max(1em, 8vmax);
 }
 
 body {
@@ -10,11 +10,13 @@ body {
 }
 
 main {
-  align-items: center;
   display: flex;
-  flex-flow: row;
-  justify-content: center;
+  flex-flow: column;
   min-height: 100vh;
+}
+
+time {
+  margin-block-start: auto;
 }
 
 :focus {
@@ -23,5 +25,5 @@ main {
 }
 
 footer {
-  font-size: min(8vmax, 1rem);
+  font-size: min(5vmax, 1rem);
 }
